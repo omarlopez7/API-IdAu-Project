@@ -1,6 +1,7 @@
 using API_IdAu1.Database;
 using API_IdAu1.Models.Database;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -60,7 +61,7 @@ builder.Services.AddIdentityApiEndpoints<Users>(options =>
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequiredLength = 8;
 })
-.AddRoles<Users>()
+.AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<AppDBContext>();
 
 builder.Services.AddControllers();
