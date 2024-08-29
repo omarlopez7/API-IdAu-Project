@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API IdAu1", "API IdAu1.csproj", "{72DCEED0-6A58-4B3C-B116-D61350AEB6B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72DCEED0-6A58-4B3C-B116-D61350AEB6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DCEED0-6A58-4B3C-B116-D61350AEB6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DCEED0-6A58-4B3C-B116-D61350AEB6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DCEED0-6A58-4B3C-B116-D61350AEB6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {321F8319-92B3-4EDE-8076-0A12B2FF6A82}
+	EndGlobalSection
+EndGlobal
